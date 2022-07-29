@@ -40,6 +40,7 @@ def add_to_list():
 
     for products in shopping_list:
         checking_product.append(products[0])
+
     product = input("Add product to shopping list: ")
     # Sprawdzenie czy produkt występuje w liście sprawdzającej
     if product in checking_product:
