@@ -204,7 +204,7 @@ def patient_description_file():
         if pesel in patient[2]:
             print(f"{patient[0]} {patient[1]} opis pacjenta:"
                   f"{patient[5]}")
-    # Program wysyła zapytanie czy chcemy uzuepłnić wizyte pacjenta
+    # Program wysyła zapytanie czy chcemy kartotekę wizyte pacjenta
     while True:
         fill_in = input("Czy chcesz uzupełnić kartotekę pacjenta? T/N: ")
         fill_in = fill_in.upper()
