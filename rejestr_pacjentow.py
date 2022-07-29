@@ -279,4 +279,4 @@ while True:
         sys.exit()
 
     else:
-        print("Nie ma takiej opcji.")
+        print("Nie ma takiej opcji!")
